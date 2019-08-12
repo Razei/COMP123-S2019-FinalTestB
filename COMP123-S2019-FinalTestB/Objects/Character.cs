@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * STUDENT NAME: Jarod Lavine
  * STUDENT ID: 301037634
  * DESCRIPTION: This is the Character class used in character creation
- *              This is also the Data Container for the appliation
+ *              This is also the Data Container for the application
  */
 
 
