@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 /*
  * STUDENT NAME: Jarod Lavine
  * STUDENT ID: 301037634
@@ -17,6 +18,10 @@ namespace COMP123_S2019_FinalTestB.Objects
 {
     public class Character
     {
+        //Identity
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+
         // Character Abilities
         public string Strength { get; set; }
         public string Dexterity { get; set; }
@@ -34,12 +39,12 @@ namespace COMP123_S2019_FinalTestB.Objects
         public int Level { get; set; }
 
         // Equipment
-        List<Item> Inventory;
+        public List<string> Inventory;
 
         // Constructor 
-        Character()
+        public Character()
         {
-            this.Inventory = new List<Item>();
+            this.Inventory = new List<string>();
         }
     }
 }
